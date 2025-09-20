@@ -22,7 +22,7 @@ const Hero = () => {
                 Again.
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg leading-relaxed">
-                TX is your AI best friend who never sleeps—scanning charts, spotting candlestick patterns, 
+                TX is your AI best friend who never sleeps, scanning charts, hunting for opportunities in your market by spotting candlestick patterns way before human eyes notice them, 
                 and protecting you from costly mistakes.
               </p>
             </div>
