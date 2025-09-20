@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
@@ -8,6 +9,7 @@ const CTA = () => {
   const [email, setEmail] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -30,6 +32,8 @@ const CTA = () => {
         });
         setName("");
         setEmail("");
+        // Redirect to welcome page
+        navigate("/welcome");
       } else {
         throw new Error("Submission failed");
       }
@@ -45,7 +49,7 @@ const CTA = () => {
   };
 
   return (
-    <section className="py-24 bg-gradient-card relative overflow-hidden">
+    <section id="cta-section" className="py-24 bg-gradient-card relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10 opacity-50" />
       <div className="absolute top-20 left-20 w-72 h-72 bg-primary/20 rounded-full blur-3xl" />

@@ -28,11 +28,23 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="text-lg px-8 py-6"
+                onClick={() => document.getElementById('cta-section')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Join the Beta
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                Learn More
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="text-lg px-8 py-6"
+                asChild
+              >
+                <a href="https://discord.gg/CbYT9fE5" target="_blank" rel="noopener noreferrer">
+                  Learn More
+                </a>
               </Button>
             </div>
             

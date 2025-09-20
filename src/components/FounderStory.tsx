@@ -47,7 +47,12 @@ const FounderStory = () => {
             </div>
             
             <div className="mt-10 text-center">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="text-lg px-8 py-6"
+                onClick={() => document.getElementById('cta-section')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Be Part of the First 500
               </Button>
             </div>
