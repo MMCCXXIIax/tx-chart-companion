@@ -15,7 +15,7 @@ const Welcome = () => {
           </h1>
           
           <p className="text-2xl text-muted-foreground">
-            Welcome to the TX Beta – you're officially part of the first 500 traders shaping the future of trading intelligence.
+            Welcome to the TX Beta. You're officially part of the first 500 traders shaping the future of trading intelligence.
           </p>
           
           <div className="bg-card border border-border rounded-2xl p-8 shadow-card">
