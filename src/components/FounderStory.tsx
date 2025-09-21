@@ -14,9 +14,8 @@ const FounderStory = () => {
           <div className="bg-gradient-card border border-border rounded-2xl p-8 lg:p-12 shadow-card">
             <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed space-y-6">
               <p>
-                Back in 2022, I was searching for the best business model. I explored SMMA from Iman Gadzhi, 
-                dropshipping from Jordan Welch, affiliate marketing. You name it. Then I stumbled into trading 
-                and decided to give it a shot.
+                Back in 2022, I was searching for the best business model to start.
+                I explored SMMA from Iman Gadzhi, dropshipping from Jordan Welch, affiliate marketing, you name it. Then I stumbled into trading and decided to give it a shot as well.
               </p>
               
               <p>
@@ -25,24 +24,29 @@ const FounderStory = () => {
               </p>
               
               <p>
-                When I practiced on demo accounts, my process was always the same: analyze the charts, 
-                rush to my trading book to check if the candlestick patterns matched, then set my stop‑loss 
-                at –2% and place my take‑profit higher. If you trade, you know exactly what I mean.
+                When I practiced on demo accounts, my process was always the same: analyze the charts, rush to my trading book to check if the candlestick patterns matched, 
+                then set my stop‑loss at –2% and place my take‑profit higher. If you trade, you know exactly what I mean.
               </p>
               
               <p>
-                At first, I thought it was just me. But then I saw even professional traders glued to screens 
-                for hours, waiting for patterns, missing trades, or losing everything while they slept.
+                At first, I thought it was just me. But then I saw traders with millions of YouTube subscribers glued to their screens for hours waiting for patterns, missing trades, even losing 80% of their portfolio because of a 12‑minute nap. I thought, maybe that’s just how trading is meant to be. 
+                But then I realized even professional traders were suffering the same problems not because they lacked skills, but because they’re human.
               </p>
+
+
+              <p>
+                That’s when it hit me: this isn’t just my pain, it’s our pain. And no one is truly solving it. The tools available drown us in endless data, demand months of study, or give us numbers without clarity.
+                I didn’t just wake up one day and decide, ‘I’m going to build a tool.’ NO. I lived the problem. I felt the pain. I understood the losses we all face and I built the solution that could finally benefit all of us.
+              </p>
+              
               
               <p className="text-foreground font-medium text-xl">
-                That's when I asked myself: what if a tool could do the heavy lifting?
+                That’s when I asked myself: what if a tool could do the heavy lifting?
               </p>
               
               <p>
-                That's how TX was born. A tool that studies, scans, and watches the market for you. 
-                It makes trading smarter, not harder. And it's designed not just for seasoned traders, 
-                but also for complete beginners who want to start their journey with confidence.
+                That’s how TX was born. A tool that studies, scans, and watches the market for you. It makes trading smarter, not harder. 
+                And it’s designed not just for seasoned traders, but also for complete beginners who want to start their journey with confidence.
               </p>
             </div>
             
