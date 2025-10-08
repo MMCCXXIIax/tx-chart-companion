@@ -39,11 +39,9 @@ const Hero = () => {
                 variant="outline" 
                 size="lg" 
                 className="text-lg px-8 py-6"
-                asChild
+                onClick={() => document.getElementById('founder-story')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                <a href="https://discord.gg/CbYT9fE5" target="_blank" rel="noopener noreferrer">
-                  Learn More
-                </a>
+                Learn More
               </Button>
             </div>
             
