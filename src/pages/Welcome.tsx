@@ -33,7 +33,7 @@ const Welcome = () => {
               className="text-xl px-12 py-8 font-bold"
               asChild
             >
-              <a href="https://discord.gg/VJkHKdvcnC" target="_blank" rel="noopener noreferrer">
+              <a href="https://discord.gg/TXp4CuuAnb" target="_blank" rel="noopener noreferrer">
                 🔥 Join the Community
               </a>
             </Button>
